@@ -1,6 +1,3 @@
-
-
-
 * {
   margin: 0;
 }
@@ -26,7 +23,9 @@ html {
 }
 
 .bar .bar_menu a {
+  text-decoration: none;
   margin: 5px;
+  color: white;
 }
 
 .background img{
@@ -58,6 +57,7 @@ flex-shrink: 0;
 font-size: 22px;
 padding: 30px 55px;
 margin-top: -180px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content h2{
@@ -79,6 +79,7 @@ margin-top: -180px;
   border-radius: 10px;
   color: white;
   padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navigat p{
@@ -89,3 +90,35 @@ margin-top: -180px;
   text-decoration: none;
   color: white;
 }
+
+.imageamazon{
+  margin-top: 30px;
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.imageamazon img{
+  margin: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-swipe img{
+  width: 231px;
+height: 268px;
+margin: 20px 30px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.swipe{
+  text-align: center;
+  background: rgb(235, 255, 199);
+  background-size: auto;
+  margin: 20px;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

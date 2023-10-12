@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: rgba(14, 60, 16, 1);
+  background-color: rgb(117, 145, 70);
 }
 
 .home {
@@ -16,11 +16,12 @@ html {
   width: 100%;
   height: 15%;
   position: fixed;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: white;
+  backdrop-filter: blur(6px);
 }
 
 .logo {
@@ -28,7 +29,9 @@ html {
 }
 
 .bar .bar_menu a {
+  text-decoration: none;
   margin: 5px;
+  color: white;
 }
 
 .content {
