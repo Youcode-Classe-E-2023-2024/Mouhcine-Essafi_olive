@@ -8,7 +8,6 @@ html {
 
 .home {
   background: url(img/page1/background.webp);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
